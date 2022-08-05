@@ -1,10 +1,8 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Prata', serif;*/
 
-:root {
-}
 
-h1 {
+/*h1 {
   font-family: "Prata", serif;
 }
 
@@ -16,4 +14,85 @@ h2 {
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+}*/
+
+:root {
+  --primary-color: #373737;
+  --secondary-color: #fdfdfd;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --main-heading-font-family: font-family: 'Prata', serif;
+  --sub-heading-font-family: font-family: 'Montserrat', sans-serif;
+  --body-font-family: 'Montserrat', sans-serif;
+  --sub-heading-font-weight: 600;
+  --body-font-weight: 300;
+}
+
+body {
+  margin: 0 auto;
+  font-family: var(--body-font-family);
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    padding: 42px;
+}
+
+.main-heading {
+  font-size: 96px;
+  font-family: 'Prata', serif !important;
+  text-align: center;
+}
+
+.h2-heading {
+  font-size: 36px;
+  text-align: center;
+  
+}
+
+.sub-heading {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+  
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  transition: 150ms ease-in-out;
+}
+
+.contact-link:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  transition: 150ms ease-in-out;
+}
+
+.about-link:hover {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
 }
