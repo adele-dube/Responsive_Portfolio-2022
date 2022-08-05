@@ -60,38 +60,42 @@ body {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  font-size: smaller;
+  
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 20px 40px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 12px 15px;
+  flex-basis: 100px;
+  text-align: center;
   text-decoration: none;
   text-transform: capitalize;
 }
 
-.contact-link {
+.link-style-2 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
   transition: 150ms ease-in-out;
 }
 
-.contact-link:hover {
+.link-style-2:hover {
   background: var(--secondary-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--primary-color);
 }
 
-.about-link {
+.link-style-1 {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   transition: 150ms ease-in-out;
 }
 
-.about-link:hover {
+.link-style-1:hover {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
