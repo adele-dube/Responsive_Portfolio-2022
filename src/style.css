@@ -36,7 +36,6 @@ body {
 .projects-section,
 .skills-section,
 .contact-section {
-  background-color: var(--secondary-color);
   padding: 42px;
 }
 
