@@ -1,7 +1,6 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Prata', serif;*/
 
-
 /*h1 {
   font-family: "Prata", serif;
 }
@@ -20,9 +19,9 @@ p {
   --primary-color: #373737;
   --secondary-color: #fdfdfd;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  --main-heading-font-family: font-family: 'Prata', serif;
-  --sub-heading-font-family: font-family: 'Montserrat', sans-serif;
-  --body-font-family: 'Montserrat', sans-serif;
+  --main-heading-font-family: "Prata", serif;
+  --sub-heading-font-family: "Montserrat", sans-serif;
+  --body-font-family: "Montserrat", sans-serif;
   --sub-heading-font-weight: 600;
   --body-font-weight: 300;
 }
@@ -32,28 +31,38 @@ body {
   font-family: var(--body-font-family);
 }
 
-.hero {
-    background-color: var(--secondary-color);
-    padding: 42px;
+.hero,
+.about-section,
+.projects-section,
+.skills-section,
+.contact-section {
+  background-color: var(--secondary-color);
+  padding: 42px;
 }
 
 .main-heading {
   font-size: 96px;
-  font-family: 'Prata', serif !important;
+  font-family: "Prata", serif !important;
   text-align: center;
 }
 
 .h2-heading {
   font-size: 36px;
   text-align: center;
-  
 }
 
 .sub-heading {
   font-size: 24px;
   opacity: 0.7;
   text-align: center;
-  
+}
+
+-------p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .navigation-links {
@@ -61,7 +70,6 @@ body {
   margin-top: 40px;
   justify-content: center;
   font-size: smaller;
-  
 }
 
 .navigation-links a {
@@ -99,4 +107,154 @@ body {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
+}
+---------------------------------------- .homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.homepage-image {
+  box-shadow: 5px 12px 20px #373737;
+  margin: 0 50px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.projects-paragraph {
+  font-size: smaller;
+  text-align: center;
+}
+
+.projects-grid {
+  margin-bottom: 70px;
+}
+
+.app-link-center {
+  display: flex;
+  justify-content: center;
+  margin: 0 360px;
+  border-radius: 4px;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  font-size: x-small;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.content-heading {
+  font-family: var(--main-heading-font-family) !important;
+  font-size: 42px;
+  text-align: start;
+}
+
+.content-heading-center {
+  font-family: var(--main-heading-font-family) !important;
+  font-size: 42px;
+  text-align: center;
+}
+
+--------- .project-details {
+  padding: 20px 0px;
+  text-align: left;
+}
+
+.image-description {
+  font-size: smaller;
+  padding: 20px 20px 10px 0px;
+  text-align: left;
+}
+
+.app-links {
+  margin: 20px 20px 30px 0px;
+  border-radius: 4px;
+  padding: 15px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  font-size: x-small;
+  flex-basis: 100px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.skills-grid {
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skills-description {
+  font-size: smaller;
+}
+
+.contact-section {
+  padding: 100px;
+}
+
+.contact-thumbnails {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px !important;
+  }
+
+  .content-heading {
+    font-size: 32px;
+    text-align: center !important;
+    padding: 5px;
+  }
+
+  .h2-heading {
+    font-size: 32px;
+    padding-top: 10px;
+    text-align: center !important;
+  }
+
+  .image-description {
+    text-align: center !important;
+    padding: 5px;
+  }
+
+  .homepage-image {
+    display: none !important;
+  }
+
+  .app-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
 }
