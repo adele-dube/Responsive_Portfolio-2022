@@ -226,7 +226,42 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 992px) {
+  .about-section {
+    text-align: center;
+  }
+
+  .homepage-image {
+    margin-top: 50px;
+  }
+
+  .content-heading {
+    text-align: center !important;
+  }
+
+  .app-link-center {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .skills-grid {
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .skills-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 576px) {
+  .hero {
+    margin-top: 50px;
+  }
+
   h1 {
     font-size: 48px !important;
   }
@@ -237,15 +272,24 @@ body {
     padding: 5px;
   }
 
-  .h2-heading {
+  .content-heading-center {
     font-size: 32px;
-    padding-top: 10px;
     text-align: center !important;
+    padding: 5px;
+  }
+
+  .h2-heading {
+    font-size: 26px;
+    padding-top: 18px;
+    text-align: center !important;
+  }
+
+  .sub-heading {
+    font-size: 16px;
   }
 
   .image-description {
     text-align: center !important;
-    padding: 5px;
   }
 
   .homepage-image {
@@ -256,5 +300,41 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px;
+  }
+
+  .app-link-center {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .about-section {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .skills-section {
+    display: none;
+  }
+
+  .project-details {
+    text-align: center;
+  }
+
+  .contact-heading {
+    font-size: 26px;
+    text-align: center !important;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+  .contact-thumbnails {
+    margin: 0 40px;
+  }
+
+  .navigation-links a {
+    margin: 20px 20px;
+    font-size: x-small;
+    flex-basis: 50px;
   }
 }
