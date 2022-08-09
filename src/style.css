@@ -297,6 +297,18 @@ body {
   text-align: center;
 }
 
+.nav {
+  background-color: var(--secondary-color) !important;
+}
+
+.nav-header {
+  font-family: var(--main-heading-font-family);
+}
+
+.nav-links {
+  font-size: smaller !important;
+}
+
 @media (max-width: 992px) {
   .about-section {
     text-align: center;
