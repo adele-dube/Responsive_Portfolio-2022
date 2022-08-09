@@ -311,9 +311,38 @@ body {
 
 .footer-section {
   background-color: var(--secondary-color);
-  padding: 80px 100px;
+  padding: 60px 100px 40px;
   text-align: center;
   box-shadow: var(--box-shadow);
+}
+
+.footer-email {
+  font-family: var(--sub-heading-font-family);
+  font-size: smaller;
+  opacity: 0.5;
+}
+
+.fa-regular {
+  color: var(--primary-color);
+  padding: 5px;
+}
+
+.fa-brands {
+  color: var(--primary-color);
+  padding: 5px;
+}
+
+.footer-copyright {
+  color: var(--primary-color);
+  font-size: 6px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.source-link {
+  color: var(--primary-color);
+  font-weight: var(--sub-heading-font-weight);
+  text-decoration: none;
 }
 
 @media (max-width: 992px) {
