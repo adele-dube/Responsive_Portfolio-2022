@@ -35,7 +35,9 @@ body {
 .about-section,
 .projects-section,
 .skills-section,
-.contact-section {
+.contact-section,
+.background-section {
+  background-color: var(--secondary-color);
   padding: 42px;
 }
 
@@ -169,6 +171,12 @@ body {
   text-align: start;
 }
 
+.content-heading-1 {
+  font-family: var(--main-heading-font-family) !important;
+  font-size: 70px;
+  text-align: start;
+}
+
 .content-heading-center {
   font-family: var(--main-heading-font-family) !important;
   font-size: 42px;
@@ -211,6 +219,12 @@ body {
   margin-right: 100px;
 }
 
+.skills-grid-1 {
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .skills-description {
   font-size: smaller;
 }
@@ -221,6 +235,8 @@ body {
 
 .contact-thumbnails {
   margin-top: 30px;
+  margin-left: 260px;
+  margin-right: 260px;
   display: flex;
   justify-content: center;
 }
@@ -238,6 +254,10 @@ body {
     text-align: center !important;
   }
 
+  .content-heading-1 {
+    text-align: center !important;
+  }
+
   .app-link-center {
     display: flex;
     justify-content: center;
@@ -250,9 +270,19 @@ body {
     margin-right: 30px;
   }
 
+  .skills-grid-1 {
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   .skills-description {
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .contact-thumbnails {
+    margin: 10px 150px;
   }
 }
 
@@ -272,6 +302,12 @@ body {
   }
 
   .content-heading-center {
+    font-size: 32px;
+    text-align: center !important;
+    padding: 5px;
+  }
+
+  .content-heading-1 {
     font-size: 32px;
     text-align: center !important;
     padding: 5px;
@@ -316,6 +352,17 @@ body {
     display: none;
   }
 
+  .skills-section-1 {
+    display: block;
+    margin: 0 20px;
+  }
+
+  .skills-grid-1 {
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .project-details {
     text-align: center;
   }
@@ -328,7 +375,7 @@ body {
   }
 
   .contact-thumbnails {
-    margin: 0 40px;
+    margin: 0 2px;
   }
 
   .navigation-links a {
