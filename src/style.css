@@ -35,6 +35,7 @@ body {
 .about-section,
 .projects-section,
 .skills-section,
+.skills-section-1,
 .contact-section,
 .background-section {
   background-color: var(--secondary-color);
