@@ -185,6 +185,12 @@ body {
   text-align: center;
 }
 
+.content-heading-center-1 {
+  font-family: var(--main-heading-font-family) !important;
+  font-size: 70px;
+  text-align: center;
+}
+
 --------- .project-details {
   padding: 20px 0px;
   text-align: left;
@@ -247,6 +253,14 @@ body {
   justify-content: center;
 }
 
+.contact-page-thumbnails {
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  display: flex;
+  justify-content: center;
+}
+
 .thumbnail-details {
   background-color: #fdfdfd;
   box-shadow: var(--box-shadow);
@@ -261,6 +275,19 @@ body {
 
 .thumbnail-description {
   font-size: x-small;
+  text-align: center;
+}
+
+.thumbnail-heading-1 {
+  color: black;
+  font-family: var(--main-heading-font-family);
+  font-size: x-small;
+  text-align: center;
+}
+
+.thumbnail-description-1 {
+  color: black;
+  font-size: xx-small;
   text-align: center;
 }
 
