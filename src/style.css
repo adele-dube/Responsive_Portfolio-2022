@@ -309,6 +309,13 @@ body {
   font-size: smaller !important;
 }
 
+.footer-section {
+  background-color: var(--secondary-color);
+  padding: 80px 100px;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
 @media (max-width: 992px) {
   .about-section {
     text-align: center;
