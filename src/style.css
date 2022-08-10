@@ -60,12 +60,30 @@ body {
   text-align: center;
 }
 
--------p {
+p {
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.app-links:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  transition: 100ms ease-in-out;
+}
+
+.app-link-center:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  transition: 100ms ease-in-out;
 }
 
 .navigation-links {
@@ -111,7 +129,8 @@ body {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
 }
----------------------------------------- .homepage-link {
+
+.homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
