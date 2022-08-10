@@ -1,20 +1,6 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Prata', serif;*/
 
-/*h1 {
-  font-family: "Prata", serif;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-}*/
-
 :root {
   --primary-color: #373737;
   --secondary-color: #fdfdfd;
@@ -41,6 +27,36 @@ body {
 .background-section {
   background-color: var(--secondary-color);
   padding: 42px;
+}
+
+.hero {
+  background-image: url(/media/Background/1.png);
+  background-size: 975px;
+  background-position-x: 180px;
+}
+
+.about-section {
+  background-image: url(/media/Background/1-2.png);
+  background-size: 975px;
+  background-position-x: 180px;
+}
+
+.projects-section {
+  background-image: url(/media/Background/2-1.png);
+  background-size: 972px;
+  background-position-x: 130px;
+}
+
+.skills-section {
+  background-image: url(/media/Background/4.png);
+  background-size: 972px;
+  background-position-x: 130px;
+}
+
+.contact-section {
+  background-image: url(/media/Background/5.png);
+  background-size: 972px;
+  background-position-x: 130px;
 }
 
 .main-heading {
@@ -317,7 +333,7 @@ p {
 }
 
 .nav {
-  background-color: var(--secondary-color) !important;
+  background-color: white;
 }
 
 .nav-header {
@@ -329,8 +345,8 @@ p {
 }
 
 .footer-section {
-  background-color: var(--secondary-color);
-  padding: 60px 100px 40px;
+  background-color: white;
+  padding: 20px 100px 20px;
   text-align: center;
   box-shadow: var(--box-shadow);
 }
@@ -338,6 +354,7 @@ p {
 .footer-email {
   font-family: var(--sub-heading-font-family);
   font-size: smaller;
+  margin-bottom: 2px;
   opacity: 0.5;
 }
 
