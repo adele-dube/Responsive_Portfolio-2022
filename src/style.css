@@ -255,6 +255,12 @@ p {
   text-align: left;
 }
 
+.image-description-about {
+  font-size: x-small;
+  padding: 20px 20px 10px 0px;
+  text-align: left;
+}
+
 .app-links {
   margin: 20px 20px 30px 0px;
   border-radius: 4px;
