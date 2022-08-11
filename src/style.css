@@ -1,20 +1,6 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Prata', serif;*/
 
-/*h1 {
-  font-family: "Prata", serif;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-}*/
-
 :root {
   --primary-color: #373737;
   --secondary-color: #fdfdfd;
@@ -27,6 +13,7 @@ p {
   --body-font-weight: 300;
 }
 
+/*CSS LARGE SCREEN*/
 body {
   background-image: url(/media/Background/2.png);
   background-size: 900px;
@@ -412,7 +399,9 @@ p {
   font-weight: var(--sub-heading-font-weight);
   text-decoration: none;
 }
+/**/
 
+/*MEDIA QUERIES- Medium Screen*/
 @media (max-width: 992px) {
   body {
     background-image: url(/media/Background/2.png);
@@ -506,7 +495,9 @@ p {
     padding: 320px 25px;
   }
 }
+/**/
 
+/*MEDIA QUERIES- Small Screen*/
 @media (max-width: 576px) {
   body {
     background-image: none;
@@ -624,6 +615,11 @@ p {
     padding: 5px;
   }
 
+  .content-heading-center-1 {
+    background-color: white;
+    border-radius: 4px;
+  }
+
   .contact-thumbnails {
     margin: 0 2px;
   }
@@ -650,3 +646,4 @@ p {
     padding: 230px 25px;
   }
 }
+/**/
