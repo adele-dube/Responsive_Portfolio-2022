@@ -404,9 +404,17 @@ p {
 /*MEDIA QUERIES- Medium Screen*/
 @media (max-width: 992px) {
   body {
-    background-image: url(/media/Background/2.png);
+    background-image: none;
     background-size: 675px;
     background-position-x: 60px;
+  }
+
+  .hero {
+    background-image: url(/media/Background/6.png);
+    background-size: 1280px;
+    background-position-x: 415px;
+    background-position-y: 250px;
+    margin-top: 15px;
   }
 
   .contact-section {

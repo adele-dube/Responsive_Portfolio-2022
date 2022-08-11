@@ -23,6 +23,4 @@ if (firstVisit == null) {
   greeting.innerHTML = `Hi!! I'm`;
 }
 
-firstVisit();
-
 //Function only runs the first time a user visits the page.
