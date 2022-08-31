@@ -15,9 +15,9 @@ font-family: 'Prata', serif;*/
 
 /*CSS LARGE SCREEN*/
 body {
-  background-image: url(/media/Background/2.png);
+  /*background-image: url(/media/Background/2.png);
   background-size: 900px;
-  background-position-x: 0px;
+  background-position-x: 0px;*/
   margin: 0 auto;
   font-family: var(--body-font-family);
 }
@@ -33,6 +33,13 @@ body {
 .background-section {
   background-color: white;
   padding: 42px;
+}
+
+.hero {
+  background-image: url(/media/Background/6.png);
+  background-size: 980px;
+  background-position-x: 415px;
+  background-position-y: 250px;
 }
 
 .about-section {
